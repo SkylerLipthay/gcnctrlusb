@@ -1,0 +1,15 @@
+[package]
+name = "gcnctrlusb"
+version = "0.1.0"
+authors = ["Skyler Lipthay <skyler.lipthay@gmail.com>"]
+description = "Nintendo GameCube USB controller adapter interface"
+readme = "README.md"
+keywords = ["gamecube", "nintendo", "gamepad", "joypad"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SkylerLipthay/gcnctrlusb"
+
+[dependencies]
+libusb = "0.2"
+
+[dev-dependencies]
+ansi_term = "0.7"
