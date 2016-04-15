@@ -159,7 +159,7 @@ impl<'a> Listener<'a> {
     /// * A USB message was successfully read, but it was not the right size
     ///
     /// It is wise to treat all errors returned as fatal, and to reestablish the adapter connection
-    /// through `Scanner::find_device`.
+    /// through `Scanner::find_adapter`.
     pub fn read(&mut self) -> Result<[Option<Controller>; 4], Error> {
         let timeout = Duration::from_secs(1);
         match self.handle.read_interrupt(self.endpoint_in, &mut self.buffer, timeout) {
