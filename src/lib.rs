@@ -1,7 +1,7 @@
 //! Provides an interface for reading input from a *Nintendo GameCube Controller Adapter for Wii U*
 //! USB device.
 //!
-//! Third party clones such as the 4-port Mayflash adapter in "PC mode" are also supported.
+//! Third party clones such as the 4-port Mayflash adapter in "Wii U mode" are also supported.
 //!
 //! This library depends on `libusb`, which is available as a dynamic library on many platforms
 //! including Linux, Windows, and Mac OS X.
